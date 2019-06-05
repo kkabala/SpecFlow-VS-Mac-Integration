@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net461</TargetFramework>
+    <TargetFramework>net47</TargetFramework>
     <RootNamespace>XamarinStudio.TechTalk.SpecFlow</RootNamespace>
     <Company>Straight8</Company>
     <Copyright>Straight8</Copyright>
@@ -46,8 +46,8 @@
     <PackageReference Include="IKVM.OpenJDK.Security" Version="7.2.4630.5" />
     <PackageReference Include="IKVM.Runtime" Version="7.2.4630.5" />
     <PackageReference Include="MonoDevelop.Addins" Version="0.4.7" />
-    <PackageReference Include="SpecFlow" Version="3.0.191" />
-    <PackageReference Include="SpecFlow.CustomPlugin" Version="3.0.191" />
+    <PackageReference Include="SpecFlow" Version="2.4.0" />
+    <PackageReference Include="SpecFlow.CustomPlugin" Version="2.4.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IdeIntegration\TechTalk.SpecFlow.IdeIntegration.csproj" />
